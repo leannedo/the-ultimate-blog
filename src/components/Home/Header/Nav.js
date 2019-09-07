@@ -3,16 +3,15 @@ import React, {Component} from 'react';
 class Navigation_Bar extends Component {
     render(){
         return(
-            <div className='navigation-bar'>
-                <ul>
-                    <li>Menu</li>
-                    <li>About Me</li>
-                    <li>Code'n Learn</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+            <div className='navigation-bar-container'>
+                <ul className='navigation-bar'>
+                    <li className='navigation-item'>Menu</li>
+                    <li className='navigation-item'>About Me</li>
+                    <li className='navigation-item'>Code'n Learn</li>
+                    <li className='navigation-item'>Blog</li>
+                    <li className='navigation-item'>Contact</li>
                 </ul>
             </div>
-            
         )
     }
 };

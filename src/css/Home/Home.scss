@@ -1,3 +1,22 @@
-.navigation-bar {
+.navigation-bar-container {
     color: palevioletred;
+    width: 100%;
+    display: flex;
+    
+
+    .navigation-bar {
+        display: flex;
+        flex: 1;
+        justify-content: space-around
+    }
+
+    .navigation-item {
+        list-style-type: none;
+        font-size: 20px;
+    }
+    
+}
+
+.header-container {
+    display: flex;
 }
