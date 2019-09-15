@@ -1,16 +1,16 @@
-import React, {Component} from 'react';
-import Navigation_Bar from './Nav';
+import React, { Component } from 'react';
+import NavigationBar from './NavigationBar';
 import Logo from './Logo';
-import Social from './Social';
-
+import SocialLinks from './SocialLinks';
+import '../../../css/Home/Header.scss';
 
 class Header extends Component {
-    render(){
-        return(
+    render() {
+        return (
             <div className='header-container'>
-                <Logo/>
-                <Navigation_Bar />
-                <Social />
+                <Logo />
+                <NavigationBar />
+                <SocialLinks />
             </div>
         )
     }

@@ -1,0 +1,50 @@
+@import '../variables.scss';
+
+.header-container {
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.logo {
+    font-size: 1.4em;
+    color: $primary__color;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.navigation-bar-container {
+    display: flex;
+    width: 100%;
+    flex: 2;
+
+    .navigation-bar {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+    }
+
+    .navigation-item {
+        list-style-type: none;
+        font-size: 1em;
+        cursor: pointer;
+
+        &:hover {
+            color: $secondary__color;
+        }
+    }
+
+}
+
+.social-bar-container {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+
+    > :not(:last-child) {
+        margin-right: 1em;
+    }
+}

@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-class Navigation_Bar extends Component {
-    render(){
-        return(
+class NavigationBar extends Component {
+    render() {
+        return (
             <div className='navigation-bar-container'>
                 <ul className='navigation-bar'>
                     <li className='navigation-item'>Menu</li>
@@ -16,4 +16,4 @@ class Navigation_Bar extends Component {
     }
 };
 
-export default Navigation_Bar;
+export default NavigationBar;

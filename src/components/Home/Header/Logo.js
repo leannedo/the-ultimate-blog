@@ -1,14 +1,11 @@
-import React, {Component} from 'react';
-import Logo_Page from './../../../assets/logo.jpg';
+import React from 'react';
 
-class Logo extends Component{
-    render(){
-        return(
-            <div className='logo'>
-                <img src={Logo_Page}/>
-            </div>
-        )
-    }
+const Logo = () => {
+    return(
+        <div className='logo'>
+            The Ultimate
+        </div>
+    )
 }
 
 export default Logo;
