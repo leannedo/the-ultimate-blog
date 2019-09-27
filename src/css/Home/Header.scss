@@ -26,14 +26,19 @@
         justify-content: space-around;
     }
 
-    .navigation-item {
-        list-style-type: none;
+    a {
+        text-decoration: none;
+        color: #333;
         font-size: 1em;
-        cursor: pointer;
+        font-weight: 500;
 
         &:hover {
             color: $secondary__color;
         }
+    }
+
+    .navigation-item {
+        list-style-type: none;
     }
 
 }

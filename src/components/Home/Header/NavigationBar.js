@@ -1,19 +1,25 @@
-import React, { Component } from 'react';
+import React from "react";
+import {Link} from "react-router-dom";
 
-class NavigationBar extends Component {
-    render() {
-        return (
-            <div className='navigation-bar-container'>
-                <ul className='navigation-bar'>
-                    <li className='navigation-item'>Menu</li>
-                    <li className='navigation-item'>About Me</li>
-                    <li className='navigation-item'>Code'n Learn</li>
-                    <li className='navigation-item'>Blog</li>
-                    <li className='navigation-item'>Contact</li>
-                </ul>
-            </div>
-        )
-    }
+const NavigationBar = () => {
+  return (
+    <div className="navigation-bar-container">
+      <ul className="navigation-bar">
+        <Link to="/">
+          <li className="navigation-item">Home</li>
+        </Link>
+        <Link to="/about">
+          <li className="navigation-item">About Me</li>
+        </Link>
+        <Link to="/codenlearn">
+          <li className="navigation-item">Code'n Learn</li>
+        </Link>
+        <Link to="/blog">
+          <li className="navigation-item">Blog</li>
+        </Link>
+      </ul>
+    </div>
+  );
 };
 
 export default NavigationBar;

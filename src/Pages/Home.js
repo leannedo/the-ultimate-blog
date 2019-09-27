@@ -1,21 +1,14 @@
-import React, {Component} from 'react';
-import Header from '../components/Home/Header/Header';
-import HeroBanner from '../components/Home/HeroBanner';
-import StorySectionContainer from '../components/Home/StorySections/StorySectionContainer';
-import './../css/Home/Home.scss';
+import React from "react";
+import HeroBanner from "../components/Home/HeroBanner";
+import StorySectionContainer from "../components/Home/StorySections/StorySectionContainer";
 
-class Home extends Component{
-    render(){
-        return(
-            <div className='homepage-index'>
-                <Header />
-                <HeroBanner />
-                <StorySectionContainer />
-            </div>
-            
-        )
-    }
+const Home = () => {
+  return (
+    <div className="homepage-index">
+      <HeroBanner />
+      <StorySectionContainer />
+    </div>
+  );
 };
 
 export default Home;
-
