@@ -18,3 +18,18 @@ code {
 img {
   width: 100%;
 }
+
+.btn {
+    border: none;
+    padding: 0.5em 1.8em;
+    margin: 0;
+    text-decoration: none;
+    background: $secondary__color;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
