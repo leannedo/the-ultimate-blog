@@ -4,7 +4,7 @@ import banner from './../../assets/herobanner.jpg';
 const HeroBanner = () => {
     return (
         <div className='hero-banner-container'>
-            <img src={banner} />
+            <img src={banner} alt='hero-banner'/>
         </div>
     )
 }

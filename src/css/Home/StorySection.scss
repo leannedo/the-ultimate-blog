@@ -1,22 +1,39 @@
 @import '../variables.scss';
 
-$card__width: 400px;
-$card__height: 420px;
+$card__width: 350px;
+$card__height: 360px;
 $number-card__width: 50px;
 $number-card__height: 50px;
 $card__border-radius: 4px;
+$image__offset-top: 280px;
+$story__offset-top: 400px;
+
+.story-section-list {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
 
 .story-section-container {
-    width: 90%;
+    width: 65%;
     position: relative;
-    margin-top: -6em;
-    margin-left: 2em;
+    margin-top: -12em;
+    display: flex;
+    flex-direction: column;
+
+    &:not(:first-child) {
+        margin-top: -$story__offset-top;
+    }
+
+    &.rtl {
+        align-self: flex-end;
+    }
 }
 
 .story-info-card {
     width: $card__width;
     height: $card__height;
-    padding: 2em;
+    padding: 2em 4em;
     background: #fff;
     box-sizing: border-box;
     position: relative;
@@ -24,11 +41,16 @@ $card__border-radius: 4px;
     margin-left: 2em;
 }
 
+.rtl .story-info-card {
+    align-self: flex-end;
+}
+
 .story-title {
     width: 80%;
-    font-size: 3.2em;
+    font-size: 3em;
+    line-height: 1.2em;
     font-weight: 500;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.6em;
 }
 
 .story-cta-btn {
@@ -36,12 +58,16 @@ $card__border-radius: 4px;
     bottom: 30px;
     right: -30px;
     border-radius: $card__border-radius;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .story-image {
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 50px;
+    top: -$image__offset-top;
     margin: auto;
     z-index: -1;
 }
@@ -61,4 +87,12 @@ $card__border-radius: 4px;
     color: #fff;
     background: $secondary__color;
     border-radius: $card__border-radius;
+}
+
+.ltr .story-index-counter {
+    right: -25px;
+}
+
+.rtl .story-index-counter {
+    left: -25px;
 }

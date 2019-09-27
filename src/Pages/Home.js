@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Header from '../components/Home/Header/Header';
 import HeroBanner from '../components/Home/HeroBanner';
-import StorySection from '../components/Home/StorySection';
+import StorySectionContainer from '../components/Home/StorySections/StorySectionContainer';
 import './../css/Home/Home.scss';
 
 class Home extends Component{
@@ -10,7 +10,7 @@ class Home extends Component{
             <div className='homepage-index'>
                 <Header />
                 <HeroBanner />
-                <StorySection />
+                <StorySectionContainer />
             </div>
             
         )
