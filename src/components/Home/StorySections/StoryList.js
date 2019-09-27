@@ -1,10 +1,11 @@
 import React from "react";
-import storyData from "./storyData";
+import stories from "../../../data/stories";
 import StorySection from "./StorySection";
+import "../../../css/Home/StoryList.scss";
 
-const StorySectionContainer = () => {
-  const renderStorySections = storyData => {
-    return storyData.map((story, index) => (
+const StoryList = () => {
+  const renderStorySections = stories => {
+    return stories.map((story, index) => (
       <StorySection
         {...story}
         key={index}
@@ -16,9 +17,9 @@ const StorySectionContainer = () => {
 
   return (
     <div className="story-section-list">
-      {storyData && renderStorySections(storyData)}
+      {stories && renderStorySections(stories)}
     </div>
   );
 };
 
-export default StorySectionContainer;
+export default StoryList;

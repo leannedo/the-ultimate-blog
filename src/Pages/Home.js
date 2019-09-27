@@ -1,12 +1,12 @@
 import React from "react";
 import HeroBanner from "../components/Home/HeroBanner";
-import StorySectionContainer from "../components/Home/StorySections/StorySectionContainer";
+import StoryList from "../components/Home/StorySections/StoryList";
 
 const Home = () => {
   return (
     <div className="homepage-index">
-      <HeroBanner />
-      <StorySectionContainer />
+      <HeroBanner imageName="herobanner.jpg" />
+      <StoryList />
     </div>
   );
 };

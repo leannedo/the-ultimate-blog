@@ -1,0 +1,20 @@
+.hero-banner-container {
+  position: relative;
+  min-height: 200px;
+
+  &.loading {
+      display: none;
+  }
+}
+
+.hero-banner-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+
+  font-size: 4em;
+  width: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}

@@ -1,0 +1,32 @@
+$blog-banner__height: 300px;
+
+.blog-banner-container {
+  width: 100%;
+  height: $blog-banner__height;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 4em;
+  position: relative;
+
+  img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  h2 {
+      text-align: center;
+      color: #fff;
+      margin: 0.3em 0;
+  }
+}
+
+.blog-banner-title {
+    font-size: 2.6em;
+}
+
+.blog-banner-subtitle {
+    font-weight: 600;
+}

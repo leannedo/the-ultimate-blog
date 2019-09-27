@@ -8,12 +8,6 @@ $card__border-radius: 4px;
 $image__offset-top: 280px;
 $story__offset-top: 400px;
 
-.story-section-list {
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-}
-
 .story-section-container {
     width: 65%;
     position: relative;
@@ -27,6 +21,10 @@ $story__offset-top: 400px;
 
     &.rtl {
         align-self: flex-end;
+    }
+
+    &.loading {
+        display: none;
     }
 }
 
