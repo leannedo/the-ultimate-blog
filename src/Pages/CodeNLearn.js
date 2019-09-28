@@ -1,8 +1,14 @@
 import React from "react";
+import BlogList from "../components/Blog/BlogList";
+import BlogBanner from "../components/Blog/BlogBanner";
+import codenlearns from "../data/codenlearns";
 
 const CodeNLearn = () => {
   return (
-    <h1>CodeNLearn</h1>
+    <div className="codenlearns-index page-index">
+      <BlogBanner />
+      <BlogList blogs={codenlearns} />
+    </div>
   );
 };
 

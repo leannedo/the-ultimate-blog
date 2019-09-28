@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../../css/Home/StorySection.scss";
 
 const StorySection = ({
@@ -7,15 +8,27 @@ const StorySection = ({
   ctaBtnTitle,
   index,
   imageName,
-  direction
+  direction,
+  routeTo
 }) => {
+  const [loading, setLoading] = useState(true);
+  const imageLoaded = () => {
+    setLoading(false);
+  };
+
   return (
-    <div className={`story-section-container ${direction}`}>
+    <div
+      className={`story-section-container ${direction} ${
+        loading ? "loading" : ""
+      }`}
+    >
       <div className="story-info-card">
         <div className="story-title">{title}</div>
         <div className="story-subtitle">{subtitle}</div>
         {ctaBtnTitle && (
-          <button className="btn story-cta-btn">{ctaBtnTitle}</button>
+          <Link to={`/${routeTo}`}>
+            <button className="btn story-cta-btn">{ctaBtnTitle}</button>
+          </Link>
         )}
       </div>
       <div className="story-index-counter">{index}</div>
@@ -23,6 +36,7 @@ const StorySection = ({
         <img
           src={require(`../../../assets/${imageName}`)}
           alt="story-landscape"
+          onLoad={imageLoaded}
         />
       </div>
     </div>

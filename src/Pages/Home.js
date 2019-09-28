@@ -1,12 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import HeroBanner from "../components/Home/HeroBanner";
-import StorySectionContainer from "../components/Home/StorySections/StorySectionContainer";
+import StoryList from "../components/Home/StorySections/StoryList";
 
 const Home = () => {
+  const [bannerLoaded, setIsBannerLoaded] = useState(false);
   return (
     <div className="homepage-index">
-      <HeroBanner />
-      <StorySectionContainer />
+      <HeroBanner imageName="herobanner.jpg" setIsBannerLoaded={setIsBannerLoaded}/>
+      {
+        bannerLoaded && (
+          <StoryList />
+        )
+      }
     </div>
   );
 };
