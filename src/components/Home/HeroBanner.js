@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "../../css/Home/HeroBanner.scss";
 
-const HeroBanner = ({ imageName }) => {
+const HeroBanner = ({ imageName, setIsBannerLoaded }) => {
   const [loading, setLoading] = useState(true);
   const imageLoaded = () => {
     setLoading(false);
+    setIsBannerLoaded(true)
   };
 
   return (
