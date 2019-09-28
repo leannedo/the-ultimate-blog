@@ -7,7 +7,10 @@
     "@fortawesome/free-brands-svg-icons": "^5.10.2",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "node-sass": "^4.12.0",
+    "path": "^0.12.7",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-markdown": "^4.2.2",
@@ -17,12 +20,10 @@
     "uuid": "^3.3.3"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "node server.js",
     "build": "react-scripts build",
-    "copyRedirect": "cp .netlify/_redirects build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run copyRedirect && netlify deploy --prod",
     "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
