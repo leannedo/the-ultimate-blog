@@ -1,0 +1,34 @@
+.about-me-index {
+  display: flex;
+  max-width: 1600px;
+  margin: auto;
+  margin-top: 6em;
+}
+
+.about-me-pic {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-right: 8em;
+
+  img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+
+.about-me-intro-wrapper {
+    width: 40%;
+
+    h1 {
+        width: 80%;
+        font-size: 3.2em;
+    }
+
+    p {
+        font-weight: 500;
+    }
+}
