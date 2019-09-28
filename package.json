@@ -21,7 +21,7 @@
     "copyRedirect": "cp .netlify/_redirects build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run copyRedirect && netlify deploy --prod",
+    "deploy": "npm run copyRedirect && netlify deploy --prod"
   },
   "eslintConfig": {
     "extends": "react-app"
