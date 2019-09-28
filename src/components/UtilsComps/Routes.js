@@ -1,11 +1,11 @@
 import React from "react";
 import { Route } from "react-router-dom";
 
-import Home from "../../pagessdfsdf/Home";
-import AboutMe from "../../pagessdfsdf/AboutMe";
-import Blog from "../../pagessdfsdf/Blog";
-import PostContent from "../../pagessdfsdf/PostContent";
-import CodeNLearn from "../../pagessdfsdf/CodeNLearn";
+import Home from "../../pages/Home";
+import AboutMe from "../../pages/AboutMe";
+import Blog from "../../pages/Blog";
+import PostContent from "../../pages/PostContent";
+import CodeNLearn from "../../pages/CodeNLearn";
 
 const Routes = (
     <Route>
