@@ -1,5 +1,3 @@
-import uuidv1 from 'uuid';
-
 export default [
     {
         title: 'Kickstarted with coding',
