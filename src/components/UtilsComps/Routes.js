@@ -13,7 +13,7 @@ const Routes = (
       <Route path="/about" component={AboutMe} />
       <Route path="/codenlearn" component={CodeNLearn} />
       <Route path="/blog" component={Blog} />
-      <Route path="/blog/:slug" component={PostContent} />
+      <Route path="/post/:slug" component={PostContent} />
     </Route>
   );
 

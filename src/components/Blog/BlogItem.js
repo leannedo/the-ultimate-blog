@@ -2,25 +2,22 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../css/Blog/BlogItem.scss";
 
-const BlogItem = ({ id, title, description, date, imageName }) => {
+const BlogItem = ({ id, title, description, date, imageName, mdFileName }) => {
   const getPostSlug = () => {
-    const titleFormat = title
-        ? title
-            .trim()
-            .toLowerCase()
-            .split(" ")
-            .join("-")
-        : "",
-      idPart = id ? id.substring(0, 7) : "";
-
-    return `${titleFormat}-${idPart}`;
+    return title
+      ? title
+          .trim()
+          .toLowerCase()
+          .split(" ")
+          .join("-")
+      : "";
   };
 
   return (
     <Link
       to={{
         pathname: `/post/${getPostSlug()}`,
-        state: { blogId: id }
+        state: { mdFileName: mdFileName }
       }}
     >
       <div className="blog-item-card">
