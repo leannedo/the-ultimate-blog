@@ -1,17 +1,10 @@
 export default [
     {
-        title: 'Kickstarted with coding',
-        date: '10-09-2019',
-        description: 'Let\'s me tell you my valuable lessons when I first sit down to code',
+        title: '#1.Largest Number',
+        date: '27-02-2020',
+        description: 'Finding the largest number in a series of user\'s input',
         imageName: 'story-1.jpg',
-        mdFileName: '',
-    },
-    {
-        title: 'Some code lesson',
-        date: '08-09-2019',
-        description: 'Let\'s me tell you my valuable lessons when I first sit down to code',
-        imageName: 'story-3.jpg',
-        mdFileName: '',
+        mdFileName: 'largest-number',
     },
     {
         title: 'Introduction to markdown',
