@@ -13,11 +13,4 @@ export default [
         imageName: 'story-2.jpg',
         mdFileName: 'introduction-to-markdown',
     },
-    {
-        title: 'A Tuesday Noon',
-        date: '25-02-2020',
-        description: 'A minor matter',
-        imageName: 'story-2.jpg',
-        mdFileName: 'A tuesday noon',
-    }
 ]
