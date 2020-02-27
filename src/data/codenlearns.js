@@ -19,7 +19,7 @@ export default [
         description: 'Here is some instruction how to use markdown',
         imageName: 'story-2.jpg',
         mdFileName: 'introduction-to-markdown',
-    }
+    },
     {
         title: 'A Tuesday Noon',
         date: '25-02-2020',
