@@ -1,0 +1,15 @@
+@import '../variables.scss';
+
+.footer-container {
+    margin-top: -8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    background: #00111a;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+}

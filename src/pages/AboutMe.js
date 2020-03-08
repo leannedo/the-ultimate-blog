@@ -24,12 +24,12 @@ const AboutMe = () => {
         </p>
         <p>
           I scatter my interests to different topics which fully represent my
-          personality: coding and creative, books and life stories, culture and
+          personality: coding and creativity, books and valuable lessons, culture and
           modern technology, gaming and outdoor activities.
         </p>
         <p>
-          No matter who you are, I hope that we could find a relatable piece and
-          'click'. And that goes a long way.
+          No matter who you are, I hope that you could find a relatable story and
+          'click', and that goes a long way.
         </p>
       </div>
     </div>

@@ -2,7 +2,7 @@ export default [
     {
         title: '#1.Largest Number',
         date: '27-02-2020',
-        description: 'Finding the largest number in a series of user\'s input',
+        description: '#Java #array #input #assign #compare #replace',
         imageName: 'story-1.jpg',
         mdFileName: 'largest-number',
     },

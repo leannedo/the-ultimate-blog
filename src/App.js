@@ -5,15 +5,17 @@ import "./App.scss";
 import ScrollToTop from "./components/UtilsComps/ScrollToTop";
 import routes from "./components/UtilsComps/Routes";
 import Header from "./components/Home/Header/Header";
+import Footer from "./components/Home/Footer";
 
 const App = () => {
   return (
     <Router>
       <ScrollToTop>
-        <div className="app">
-          <Header />
-          {routes}
-        </div>
+        <Header />
+          <div className="app">
+            {routes}
+          </div>
+        <Footer />
       </ScrollToTop>
     </Router>
   );

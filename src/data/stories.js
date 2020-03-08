@@ -7,17 +7,17 @@ export default [
     routeTo: "codenlearn"
   },
   {
-    title: "Story of my life",
-    subtitle: "My life from Z to A",
-    ctaBtnTitle: "Discover More",
+    title: "My blog",
+    subtitle: "Me in a nutshell",
+    ctaBtnTitle: "Discover Me",
     imageName: "story-2.jpg",
     routeTo: "blog"
   },
-  {
-    title: "Stay In Touch",
-    subtitle:
-      "Write to me. I'm here answering and hearing your stories. Anything",
-    ctaBtnTitle: "",
-    imageName: "story-3.jpg"
-  }
+  // {
+  //   title: "Stay In Touch",
+  //   subtitle:
+  //     "Write to me. I'm here answering and hearing your stories. Anything",
+  //   ctaBtnTitle: "",
+  //   imageName: "story-3.jpg"
+  // }
 ];
