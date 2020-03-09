@@ -6,7 +6,7 @@ import codenlearns from "../data/codenlearns";
 const CodeNLearn = () => {
   return (
     <div className="codenlearns-index page-index">
-      <BlogBanner />
+      <BlogBanner title="My coding lessons from scratch"/>
       <BlogList blogs={codenlearns} />
     </div>
   );

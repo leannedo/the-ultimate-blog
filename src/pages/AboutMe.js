@@ -4,9 +4,11 @@ import aboutMePic from "../assets/about-me.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="about-me-index">
+    <div className="about-me-index page-index">
       <div className="about-me-pic">
-        <img src={aboutMePic} alt="About me" />
+        <div className="pic-wrapper">
+          <img src={aboutMePic} alt="About me" />
+        </div>
       </div>
 
       <div className="about-me-intro-wrapper">

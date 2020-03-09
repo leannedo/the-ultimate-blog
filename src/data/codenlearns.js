@@ -5,5 +5,5 @@ export default [
         description: '#Java #array #input #assign #compare #replace',
         imageName: 'story-1.jpg',
         mdFileName: 'largest-number',
-    },
+    }
 ]

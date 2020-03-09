@@ -11,11 +11,11 @@ const App = () => {
   return (
     <Router>
       <ScrollToTop>
-        <Header />
           <div className="app">
+            <Header />
             {routes}
+            <Footer />
           </div>
-        <Footer />
       </ScrollToTop>
     </Router>
   );
