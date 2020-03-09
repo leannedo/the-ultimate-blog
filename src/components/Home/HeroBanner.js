@@ -18,7 +18,7 @@ const HeroBanner = ({ imageName, setIsBannerLoaded }) => {
         />
       )}
 
-      <h1 className="hero-banner-text">The ultimate</h1>
+      <h1 className="hero-banner-text">Right Brain Learns Code</h1>
     </div>
   );
 };

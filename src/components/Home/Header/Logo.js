@@ -3,7 +3,7 @@ import React from 'react';
 const Logo = () => {
     return(
         <div className='logo'>
-            The Ultimate
+           &lt;RB.LC&gt; 
         </div>
     )
 }
