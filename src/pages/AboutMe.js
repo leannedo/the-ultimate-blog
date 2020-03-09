@@ -11,25 +11,26 @@ const AboutMe = () => {
 
       <div className="about-me-intro-wrapper">
         <h1>Hi! My name is Leanne.</h1>
+
         <p>
-          To begin with, I'm a girl of extremes. Everything about me stays at
-          two ends of a spectrum. Always in conflict with one another. Fierce
-          and peaceful. Energetic and hollow.
+          I'm a right-brained person who have come to fall in love with the wholesome world of coding. 
+          Currently I'm learning Java and JavaScript, and I'm working to deliver a 2023 version of myself 
+          which is an Android Developer.  
         </p>
         <p>
-          I create this blog to record my journey of overcoming my weaknesses
-          and achieving successes, of constant learning and continuous failures.
-          You would find in my blog the kind of stories which you can relate,
-          reflect, reject, or replicate.
+          With Right Brain Learns Code, I first want to inspire and empower people who do not have a technical
+          background but still love and want to learn coding. In this blog, you can find stories  
+          of how I have both acquired left-brain skills and sharpen my right-brain ones. 
+          Secondly, I want to present Java and JavaScript language from my angle, 
+          with a right-brain approach and a left-brain solution.   
         </p>
         <p>
-          I scatter my interests to different topics which fully represent my
-          personality: coding and creativity, books and valuable lessons, culture and
-          modern technology, gaming and outdoor activities.
+          I believe everyone's experience with coding is unique, and that's why we need more stories
+          of people from different backgrounds to fully represent this bizarre yet fantastic world of logic.
         </p>
+        
         <p>
-          No matter who you are, I hope that you could find a relatable story and
-          'click', and that goes a long way.
+          No matter who you are, I hope that you could find a story which you can feel resonate with. 
         </p>
       </div>
     </div>
