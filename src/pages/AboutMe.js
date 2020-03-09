@@ -20,7 +20,7 @@ const AboutMe = () => {
         <p>
           With Right Brain Learns Code, I first want to inspire and empower people who do not have a technical
           background but still love and want to learn coding. In this blog, you can find stories  
-          of how I have both acquired left-brain skills and sharpen my right-brain ones. 
+          of how I have both acquired technical skills and at the same time sharpen my people skills. 
           Secondly, I want to present Java and JavaScript language from my angle, 
           with a right-brain approach and a left-brain solution.   
         </p>
@@ -30,7 +30,7 @@ const AboutMe = () => {
         </p>
         
         <p>
-          No matter who you are, I hope that you could find a story which you can feel resonate with. 
+          No matter who you are, I hope that you could find a story which you can feel resonate with :)
         </p>
       </div>
     </div>
