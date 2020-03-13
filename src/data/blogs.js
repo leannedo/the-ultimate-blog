@@ -5,4 +5,11 @@ export default [
         description: '#social science #natural science #SAT #logic #right brain',
         mdFileName: 'pay-tribute-to-the-sat',
     },
+    {
+        title: 'It\'s ok to fail test cases',
+        date: '21-03-2020',
+        description: '#failtestcases #tmc #java',
+        mdFileName: 'it-ok-to-fail-test-case',
+    },
+    
 ]

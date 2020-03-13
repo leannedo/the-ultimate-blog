@@ -9,8 +9,8 @@ const gitHub = <FontAwesomeIcon icon={faGithub} />
 const SocialLinks = () => {
     return (
         <div className='social-bar-container'>
-            {gitHub}
-            {linkedIn}
+            <a href="https://www.linkedin.com/in/leanedo/" target="_blank">{linkedIn}</a>
+            <a href="https://github.com/leannedo" target="_blank">{gitHub}</a>
         </div>
     )
 
